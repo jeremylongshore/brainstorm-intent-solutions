@@ -1,4 +1,6 @@
-# Brainstorm Repository
+# Brainstorm - Intent Solutions
+
+**Repository**: brainstorm-intent-solutions
 
 **Purpose**: Central hub for all project planning, architecture design, and strategic brainstorming sessions.
 
