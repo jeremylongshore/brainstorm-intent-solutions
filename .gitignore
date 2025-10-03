@@ -1,0 +1,16 @@
+# Brainstorm Repository - Git Ignore
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
