@@ -1,163 +1,180 @@
-# MASTER RSS Feed Collection - All Systems
+# MASTER RSS FEED COLLECTION - ALL SYSTEMS
 
-**Comprehensive validated feed list for n8n Content Distribution System**
+**Comprehensive Tier-1 Feed List for n8n Content Distribution**
 
 ✅ **Last Validated**: 2025-10-03
-📊 **Total Feeds Tested**: 66 unique feeds
-✅ **Validated (HTTP 200 + XML)**: 45 feeds (68.2%)
-❌ **Failed Validation**: 21 feeds (31.8%)
+📊 **Total Unique Feeds Tested**: 66
+✅ **Validated Tier-1 Feeds**: 45 (68.2%)
+❌ **Failed/Disqualified**: 21 (31.8%)
 
 ---
 
-## ✅ VALIDATED FEEDS - TIER 1 (45 Total)
+## ✅ TIER-1 VALIDATED FEEDS (45 Total)
 
-### Tech & AI News (6 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| TechCrunch | `https://techcrunch.com/feed/` | ✅ | 50+ posts/day |
-| The Verge | `https://www.theverge.com/rss/index.xml` | ✅ | 30+ posts/day |
-| Ars Technica | `https://feeds.arstechnica.com/arstechnica/index` | ✅ | 20+ posts/day |
-| Wired | `https://www.wired.com/feed/rss` | ✅ | 30+ posts/day |
-| Engadget | `https://www.engadget.com/rss.xml` | ✅ | 25+ posts/day |
+All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 
-### AI/ML Specific (5 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| OpenAI News | `https://openai.com/news/rss.xml` | ✅ | 2-4 posts/week |
-| Hugging Face Blog | `https://huggingface.co/blog/feed.xml` | ✅ | 4-6 posts/month |
-| AI News | `https://www.artificialintelligence-news.com/feed/` | ✅ | Daily updates |
-| MIT News AI | `https://news.mit.edu/rss/topic/artificial-intelligence2` | ✅ | Weekly updates |
-| Machine Learning Mastery | `https://machinelearningmastery.com/feed/` | ✅ | 8-12 posts/month |
-| The Gradient | `https://thegradient.pub/rss/` | ✅ | 2-4 posts/month |
+### AI Research & Machine Learning (6 feeds)
 
-### Business & Finance (3 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Bloomberg Technology | `https://feeds.bloomberg.com/technology/news.rss` | ✅ | Real-time |
-| Forbes Technology | `https://www.forbes.com/innovation/feed2/` | ✅ | Daily |
-| Wall Street Journal Tech | `https://feeds.a.dj.com/rss/RSSWSJD.xml` | ✅ | Real-time |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| OpenAI News | `https://openai.com/news/rss.xml` | Official OpenAI announcements, research | 2-4 posts/week | Intent Solutions (4+), StartAITools (3+) |
+| Hugging Face Blog | `https://huggingface.co/blog/feed.xml` | Open source AI models, tools | 4-6 posts/month | StartAITools (3+) |
+| Machine Learning Mastery | `https://machinelearningmastery.com/feed/` | Practical ML tutorials | 8-12 posts/month | StartAITools (3+) |
+| The Gradient | `https://thegradient.pub/rss/` | AI research analysis | 2-4 posts/month | Intent Solutions (4+), StartAITools (3+) |
+| AI News | `https://www.artificialintelligence-news.com/feed/` | AI industry news | Daily | Intent Solutions (4+), StartAITools (3+) |
+| MIT News AI | `https://news.mit.edu/rss/topic/artificial-intelligence2` | MIT AI research | Weekly | Intent Solutions (4+), StartAITools (3+) |
 
-### General News (2 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| CNN Technology | `http://rss.cnn.com/rss/cnn_tech.rss` | ✅ | Hourly |
-| NPR Technology | `https://feeds.npr.org/1001/rss.xml` | ✅ | Daily |
+### Tech News & Analysis (6 feeds)
 
-### Science & Innovation (3 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Science Daily | `https://www.sciencedaily.com/rss/computers_math/computer_science.xml` | ✅ | Daily |
-| New Scientist | `https://www.newscientist.com/feed/home/` | ✅ | Daily |
-| MIT Technology Review | `https://www.technologyreview.com/feed/` | ✅ | 5-10 posts/day |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| TechCrunch | `https://techcrunch.com/feed/` | Startup news, funding, launches | 50+ posts/day | Intent Solutions (4+), StartAITools (3+) |
+| The Verge | `https://www.theverge.com/rss/index.xml` | Technology, science, culture | 30+ posts/day | Intent Solutions (4+), StartAITools (3+) |
+| Ars Technica | `https://feeds.arstechnica.com/arstechnica/index` | In-depth tech analysis | 20+ posts/day | Intent Solutions (4+), StartAITools (3+) |
+| Wired | `https://www.wired.com/feed/rss` | Tech impact on culture | 30+ posts/day | Intent Solutions (4+), StartAITools (3+) |
+| Engadget | `https://www.engadget.com/rss.xml` | Consumer technology | 25+ posts/day | StartAITools (3+) |
+| MIT Technology Review | `https://www.technologyreview.com/feed/` | Emerging technology | 5-10 posts/day | Intent Solutions (4+), StartAITools (3+) |
 
-### Developer Focused (4 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Hacker News | `https://hnrss.org/frontpage` | ✅ | Real-time |
-| GitHub Blog | `https://github.blog/feed/` | ✅ | Weekly |
-| Stack Overflow Blog | `https://stackoverflow.blog/feed/` | ✅ | Weekly |
-| InfoQ | `https://feed.infoq.com/` | ✅ | Daily |
+### Business & Finance Tech (3 feeds)
 
-### Cybersecurity (2 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| KrebsOnSecurity | `https://krebsonsecurity.com/feed/` | ✅ | Weekly |
-| The Hacker News | `https://feeds.feedburner.com/TheHackersNews` | ✅ | Daily |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Bloomberg Technology | `https://feeds.bloomberg.com/technology/news.rss` | Tech business & finance | Real-time | Intent Solutions (4+), StartAITools (3+) |
+| Forbes Technology | `https://www.forbes.com/innovation/feed2/` | Innovation & business | Daily | Intent Solutions (4+), StartAITools (3+) |
+| Wall Street Journal Tech | `https://feeds.a.dj.com/rss/RSSWSJD.xml` | WSJ tech coverage | Real-time | Intent Solutions (4+), StartAITools (3+) |
 
-### Crypto & Blockchain (1 feed) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Cointelegraph | `https://cointelegraph.com/rss` | ✅ | Hourly |
+### General Tech News (2 feeds)
 
-### Mobile & Apps (2 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Android Police | `https://www.androidpolice.com/feed/` | ✅ | Daily |
-| 9to5Mac | `https://9to5mac.com/feed/` | ✅ | Hourly |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| CNN Technology | `http://rss.cnn.com/rss/cnn_tech.rss` | CNN tech news | Hourly | StartAITools (3+) |
+| NPR Technology | `https://feeds.npr.org/1001/rss.xml` | NPR tech coverage | Daily | StartAITools (3+) |
 
-### Home Repair & DIY (2 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Family Handyman | `https://www.familyhandyman.com/feed/` | ✅ | 10+ posts/day |
-| Bob Vila | `https://www.bobvila.com/feed/` | ✅ | 5-10 posts/day |
+### Science & Innovation (3 feeds)
 
-### Automotive (1 feed) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Car and Driver | `https://www.caranddriver.com/rss/all.xml/` | ✅ | 15+ posts/day |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Science Daily | `https://www.sciencedaily.com/rss/computers_math/computer_science.xml` | Computer science research | Daily | Intent Solutions (4+), StartAITools (3+) |
+| New Scientist | `https://www.newscientist.com/feed/home/` | Science & tech discoveries | Daily | Intent Solutions (4+), StartAITools (3+) |
 
-### Survival & Prepping (3 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Backdoor Survival | `https://www.backdoorsurvival.com/feed/` | ✅ | 2-4 posts/week |
-| Survival Blog | `https://survivalblog.com/feed/` | ✅ | Daily |
-| Urban Survival Site | `https://urbansurvivalsite.com/feed/` | ✅ | 2-3 posts/week |
+### Developer & Engineering (4 feeds)
 
-### Homesteading (1 feed) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| The Prairie Homestead | `https://www.theprairiehomestead.com/feed` | ✅ | 2-3 posts/week |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Hacker News | `https://hnrss.org/frontpage` | Developer community | Real-time | StartAITools (3+) |
+| GitHub Blog | `https://github.blog/feed/` | Developer tools & platform | Weekly | StartAITools (3+) |
+| Stack Overflow Blog | `https://stackoverflow.blog/feed/` | Developer insights | Weekly | StartAITools (3+) |
+| InfoQ | `https://feed.infoq.com/` | Software development | Daily | StartAITools (3+) |
 
-### Firearms & Shooting (3 feeds) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| The Truth About Guns | `https://www.thetruthaboutguns.com/feed/` | ✅ | 10+ posts/day |
-| Shooting Illustrated | `https://www.shootingillustrated.com/rss` | ✅ | 3-5 posts/day |
-| The Firearm Blog | `https://www.thefirearmblog.com/blog/feed/` | ✅ | 5-10 posts/day |
+### Cybersecurity (2 feeds)
 
-### Hunting & Outdoors (1 feed) ✅
-| Feed | URL | Status | Volume |
-|------|-----|--------|--------|
-| Outdoor Life | `https://www.outdoorlife.com/feed/` | ✅ | 10+ posts/day |
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| KrebsOnSecurity | `https://krebsonsecurity.com/feed/` | Security investigations | Weekly | Intent Solutions (4+), StartAITools (3+) |
+| The Hacker News | `https://feeds.feedburner.com/TheHackersNews` | Cybersecurity news | Daily | Intent Solutions (4+), StartAITools (3+) |
+
+### Crypto & Blockchain (1 feed)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Cointelegraph | `https://cointelegraph.com/rss` | Blockchain technology | Hourly | StartAITools (3+) |
+
+### Mobile & Apps (2 feeds)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Android Police | `https://www.androidpolice.com/feed/` | Android news & apps | Daily | StartAITools (3+) |
+| 9to5Mac | `https://9to5mac.com/feed/` | Apple & iOS news | Hourly | StartAITools (3+) |
+
+### Home Repair & DIY (2 feeds)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Family Handyman | `https://www.familyhandyman.com/feed/` | Home repair tutorials | 10+ posts/day | DixieRoad (3+) |
+| Bob Vila | `https://www.bobvila.com/feed/` | Home improvement | 5-10 posts/day | DixieRoad (3+) |
+
+### Automotive (1 feed)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Car and Driver | `https://www.caranddriver.com/rss/all.xml/` | Car reviews, maintenance | 15+ posts/day | DixieRoad (3+) |
+
+### Survival & Prepping (3 feeds)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Backdoor Survival | `https://www.backdoorsurvival.com/feed/` | Survival tips, gear | 2-4 posts/week | DixieRoad (3+) |
+| Survival Blog | `https://survivalblog.com/feed/` | Self-reliance, preparedness | Daily | DixieRoad (3+) |
+| Urban Survival Site | `https://urbansurvivalsite.com/feed/` | Urban preparedness | 2-3 posts/week | DixieRoad (3+) |
+
+### Homesteading (1 feed)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| The Prairie Homestead | `https://www.theprairiehomestead.com/feed` | Homesteading, gardening | 2-3 posts/week | DixieRoad (3+) |
+
+### Firearms & Shooting (3 feeds)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| The Truth About Guns | `https://www.thetruthaboutguns.com/feed/` | Firearms reviews, 2A news | 10+ posts/day | DixieRoad (3+) |
+| Shooting Illustrated | `https://www.shootingillustrated.com/rss` | Shooting sports, defense | 3-5 posts/day | DixieRoad (3+) |
+| The Firearm Blog | `https://www.thefirearmblog.com/blog/feed/` | Firearms news, reviews | 5-10 posts/day | DixieRoad (3+) |
+
+### Hunting & Outdoors (1 feed)
+
+| Feed Name | URL | Focus | Frequency | Brand Assignment |
+|-----------|-----|-------|-----------|------------------|
+| Outdoor Life | `https://www.outdoorlife.com/feed/` | Hunting, fishing, survival | 10+ posts/day | DixieRoad (3+) |
 
 ---
 
-## ❌ FAILED FEEDS - DID NOT QUALIFY (21 Total)
+## ❌ FAILED/DISQUALIFIED FEEDS (21 Total)
 
 ### Reason: 404 Not Found (Feed Discontinued)
-- ❌ Google AI Blog: `https://ai.googleblog.com/feeds/posts/default` (404)
-- ❌ Anthropic Blog: `https://www.anthropic.com/rss.xml` (404 - No RSS feed available)
+- ❌ **Google AI Blog**: `https://ai.googleblog.com/feeds/posts/default` (404 - discontinued)
+- ❌ **Anthropic Blog**: `https://www.anthropic.com/rss.xml` (404 - no RSS feed exists)
+- ❌ **This Old House**: `https://www.thisoldhouse.com/rss/all` (404 - discontinued)
 
-### Reason: Redirect Issues (301/302/307/308)
-- ❌ VentureBeat: `https://venturebeat.com/feed/` (308 redirect - unreliable)
-- ❌ IEEE Spectrum: `https://spectrum.ieee.org/rss/fulltext` (301 redirect)
-- ❌ OpenAI Blog (old URL): `https://openai.com/blog/rss.xml` (307 redirect)
-- ❌ BBC News Technology: `http://feeds.bbci.co.uk/news/technology/rss.xml` (302 redirect)
-- ❌ Nature News: `https://www.nature.com/nature.rss` (303 redirect)
-- ❌ AngelList Blog: `https://angel.co/blog/feed` (301 redirect)
-- ❌ Y Combinator: `https://blog.ycombinator.com/feed/` (301 redirect)
+### Reason: Redirect Issues (301/302/307/308 - Unreliable)
+- ❌ **VentureBeat**: `https://venturebeat.com/feed/` (308 redirect)
+- ❌ **IEEE Spectrum**: `https://spectrum.ieee.org/rss/fulltext` (301 redirect)
+- ❌ **OpenAI Blog (old)**: `https://openai.com/blog/rss.xml` (307 redirect - use /news/ instead)
+- ❌ **BBC News Technology**: `http://feeds.bbci.co.uk/news/technology/rss.xml` (302 redirect)
+- ❌ **Nature News**: `https://www.nature.com/nature.rss` (303 redirect)
+- ❌ **AngelList Blog**: `https://angel.co/blog/feed` (301 redirect)
+- ❌ **Y Combinator**: `https://blog.ycombinator.com/feed/` (301 redirect)
+- ❌ **DeepMind Blog**: `https://deepmind.com/blog/feed/basic/` (302 redirect)
+- ❌ **Papers with Code**: `https://paperswithcode.com/rss.xml` (301 redirect)
+- ❌ **Motor Trend**: `https://www.motortrend.com/feed/` (308 redirect)
+- ❌ **Homesteading.com**: `https://www.homesteading.com/feed/` (301 redirect)
+- ❌ **Modern Homesteading**: `https://www.modernhomesteading.com/feed/` (301 redirect)
+- ❌ **Field & Stream**: `https://www.fieldandstream.com/feed/` (301 redirect)
 
 ### Reason: Forbidden/Access Blocked (403)
-- ❌ Fortune Tech: `https://fortune.com/section/tech/feed/` (403 forbidden)
-- ❌ Product Hunt: `https://www.producthunt.com/feed` (403 forbidden)
-- ❌ Dark Reading: `https://www.darkreading.com/rss_simple.asp` (403 forbidden)
-- ❌ Guns & Ammo: `https://www.gunsandammo.com/feed/` (403 forbidden - blocks automated access)
+- ❌ **Fortune Tech**: `https://fortune.com/section/tech/feed/` (403 forbidden)
+- ❌ **Product Hunt**: `https://www.producthunt.com/feed` (403 forbidden)
+- ❌ **Dark Reading**: `https://www.darkreading.com/rss_simple.asp` (403 forbidden)
+- ❌ **Guns & Ammo**: `https://www.gunsandammo.com/feed/` (403 - blocks automation)
 
 ### Reason: Timeout/Connection Failed (000)
-- ❌ Reuters Technology: `https://feeds.reuters.com/reuters/technologyNews` (Connection failed)
-- ❌ Associated Press Technology: `https://feeds.apnews.com/rss/apf-technology.rss` (Connection failed)
-- ❌ CoinDesk: `https://feeds.coindesk.com/coindesk` (Connection failed)
-- ❌ The Prepper Journal: `https://www.theprepperjournal.com/feed/` (Timeout)
-
-### Reason: Changed URL/Discontinued
-- ❌ This Old House: `https://www.thisoldhouse.com/rss/all` (404)
-- ❌ Motor Trend: `https://www.motortrend.com/feed/` (308 redirect)
-- ❌ Homesteading.com: `https://www.homesteading.com/feed/` (301 redirect)
-- ❌ Modern Homesteading: `https://www.modernhomesteading.com/feed/` (301 redirect)
-- ❌ Field & Stream: `https://www.fieldandstream.com/feed/` (301 redirect)
+- ❌ **Reuters Technology**: `https://feeds.reuters.com/reuters/technologyNews` (connection failed)
+- ❌ **Associated Press Technology**: `https://feeds.apnews.com/rss/apf-technology.rss` (connection failed)
+- ❌ **CoinDesk**: `https://feeds.coindesk.com/coindesk` (connection failed)
+- ❌ **The Prepper Journal**: `https://www.theprepperjournal.com/feed/` (timeout)
 
 ---
 
 ## Feed Distribution by Brand
 
 ### Intent Solutions (AI Agency - Professional Authority)
-**Criteria**: AI/Tech content, Score 4+
+**Criteria**: AI/Tech content, Quality Score 4+
 
-✅ **Recommended Feeds (11)**:
+**Assigned Feeds (11)**:
 - OpenAI News
-- Hugging Face Blog
-- Machine Learning Mastery
 - The Gradient
+- AI News
+- MIT News AI
 - TechCrunch
 - The Verge
 - Ars Technica
@@ -166,28 +183,21 @@
 - Bloomberg Technology
 - Wall Street Journal Tech
 
-**Daily Volume**: 150-200 articles → Expected output: 15-25 curated articles
+**Daily Volume**: 200-250 articles → **Output**: 15-25 curated
 
 ### StartAITools (Tech Blog - Developer Focus)
-**Criteria**: AI/Tech content, Score 3+
+**Criteria**: AI/Tech/Dev content, Quality Score 3+
 
-✅ **Recommended Feeds (18)**:
+**Assigned Feeds (23)**:
 - All Intent Solutions feeds (11)
-- Plus:
-  - AI News
-  - MIT News AI
-  - Engadget
-  - Hacker News
-  - GitHub Blog
-  - Stack Overflow Blog
-  - InfoQ
+- Plus: Hugging Face Blog, Machine Learning Mastery, Engadget, CNN Technology, NPR Technology, Science Daily, New Scientist, Hacker News, GitHub Blog, Stack Overflow Blog, InfoQ, KrebsOnSecurity, The Hacker News, Cointelegraph, Android Police, 9to5Mac
 
-**Daily Volume**: 250-300 articles → Expected output: 25-40 curated articles
+**Daily Volume**: 350-400 articles → **Output**: 30-50 curated
 
-### DixieRoad (Repair/Survival/Homestead)
-**Criteria**: Repair/Survival/Homestead content, Score 3+
+### DixieRoad (Repair/Survival/Homestead Niche)
+**Criteria**: Repair/Survival/Homestead content, Quality Score 3+
 
-✅ **Recommended Feeds (11)**:
+**Assigned Feeds (11)**:
 - Family Handyman
 - Bob Vila
 - Car and Driver
@@ -200,21 +210,20 @@
 - The Firearm Blog
 - Outdoor Life
 
-**Daily Volume**: 60-80 articles → Expected output: 15-25 curated articles
+**Daily Volume**: 75-100 articles → **Output**: 20-30 curated
 
 ---
 
-## Feed Categories Summary
+## Category Summary
 
-| Category | Validated Feeds | Failed Feeds | Success Rate |
-|----------|----------------|--------------|--------------|
-| Tech & AI News | 6 | 2 | 75% |
-| AI/ML Specific | 5 | 2 | 71% |
+| Category | Validated | Failed | Success Rate |
+|----------|-----------|--------|--------------|
+| AI Research & ML | 6 | 4 | 60% |
+| Tech News & Analysis | 6 | 2 | 75% |
 | Business & Finance | 3 | 2 | 60% |
-| General News | 2 | 2 | 50% |
+| General Tech News | 2 | 2 | 50% |
 | Science & Innovation | 3 | 1 | 75% |
-| Developer Focused | 4 | 0 | 100% |
-| Startup & Venture | 0 | 3 | 0% |
+| Developer & Engineering | 4 | 0 | 100% |
 | Cybersecurity | 2 | 1 | 67% |
 | Crypto & Blockchain | 1 | 1 | 50% |
 | Mobile & Apps | 2 | 0 | 100% |
@@ -224,12 +233,13 @@
 | Homesteading | 1 | 2 | 33% |
 | Firearms & Shooting | 3 | 1 | 75% |
 | Hunting & Outdoors | 1 | 1 | 50% |
+| **TOTAL** | **45** | **21** | **68.2%** |
 
 ---
 
 ## n8n Workflow Configuration
 
-### HTTP Request Node Settings
+### HTTP Request Node Template
 ```json
 {
   "parameters": {
@@ -252,65 +262,47 @@
 - ✅ HTTP 200 status code
 - ✅ Valid XML/RSS/Atom content-type
 - ✅ Responds within 10 seconds
-- ✅ Active and maintained (posts within 30 days)
+- ✅ Active (posts within 30 days)
 
 ---
 
-## Feed Health Monitoring
+## Testing & Validation
 
-### Weekly Checks (Automated)
+### Run Full Validation
 ```bash
-# Run comprehensive validation
-./test-comprehensive-feeds.sh
-
-# Check feed freshness (last post < 30 days)
-./check-feed-freshness.sh
+cd /home/jeremy/projects/brainstorm
+./test-comprehensive-feeds.sh  # Tests all 45 feeds
 ```
 
-### Monthly Review Tasks
-1. Test all 45 validated feeds for availability
-2. Analyze quality scores (remove feeds averaging < 2.5)
-3. Search for replacements for failed feeds
-4. Update MASTER-RSS-FEEDS.md with changes
-
----
-
-## Replacement Recommendations
-
-### High Priority Replacements Needed
-1. **Google AI Blog** (404) → Consider DeepMind or Google Cloud Blog
-2. **Anthropic Blog** (No RSS) → Manual scraping or newsletter parsing
-3. **VentureBeat** (unreliable) → Alternative tech business news source
-4. **Reuters Technology** (connection failed) → Find alternative business tech feed
-
-### Medium Priority
-- Product Hunt (403) → Alternative product discovery feed
-- Fortune Tech (403) → Alternative business tech coverage
-- Y Combinator (301) → Find current YC blog RSS URL
-
----
-
-## Testing Commands
-
+### Test Single Feed
 ```bash
-# Test all comprehensive feeds
-cd /home/jeremy/projects/brainstorm
-./test-comprehensive-feeds.sh
-
-# Test original tier-1 feeds
-./test-rss-feeds.sh
-
-# Test single feed
 curl -s -I "https://techcrunch.com/feed/" | grep "HTTP\|content-type"
+```
 
-# Validate feed content (first 30 lines)
+### View Feed Content
+```bash
 curl -s "https://openai.com/news/rss.xml" | head -30
 ```
 
 ---
 
-**Last Updated**: 2025-10-03
-**Validation Scripts**: `test-comprehensive-feeds.sh`, `test-rss-feeds.sh`
-**Status**: ✅ 45 feeds validated and production-ready
-**Total Coverage**: 66 feeds tested across 16 categories
-**Version**: 2.0 (Master Feed Collection)
+## Maintenance Schedule
+
+### Weekly Automated Checks
+- Validate all 45 feeds (HTTP 200 + XML)
+- Check feed freshness (last post < 7 days)
+- Alert on feed failures
+
+### Monthly Manual Review
+- Analyze quality score trends
+- Remove feeds averaging < 2.5 quality score
+- Search for replacement feeds
+- Update this documentation
+
+---
+
+**Last Validated**: 2025-10-03
+**Validation Scripts**: `test-comprehensive-feeds.sh`
+**Status**: ✅ 45 tier-1 feeds production-ready
+**Coverage**: 16 categories, 3 brand assignments
+**Version**: 2.0 (Consolidated Master List)
