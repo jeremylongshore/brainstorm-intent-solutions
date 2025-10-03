@@ -3,13 +3,13 @@
 **Comprehensive Tier-1 Feed List for n8n Content Distribution**
 
 ✅ **Last Validated**: 2025-10-03
-📊 **Total Unique Feeds Tested**: 66
-✅ **Validated Tier-1 Feeds**: 45 (68.2%)
-❌ **Failed/Disqualified**: 21 (31.8%)
+📊 **Total Unique Feeds Tested**: 97
+✅ **Validated Tier-1 Feeds**: 52 (53.6%)
+❌ **Failed/Disqualified**: 45 (46.4%)
 
 ---
 
-## ✅ TIER-1 VALIDATED FEEDS (45 Total)
+## ✅ TIER-1 VALIDATED FEEDS (52 Total)
 
 All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 
@@ -93,11 +93,17 @@ All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 | Family Handyman | `https://www.familyhandyman.com/feed/` | Home repair tutorials | 10+ posts/day | DixieRoad (3+) |
 | Bob Vila | `https://www.bobvila.com/feed/` | Home improvement | 5-10 posts/day | DixieRoad (3+) |
 
-### Automotive (1 feed)
+### Automotive & Vehicles (8 feeds)
 
 | Feed Name | URL | Focus | Frequency | Brand Assignment |
 |-----------|-----|-------|-----------|------------------|
 | Car and Driver | `https://www.caranddriver.com/rss/all.xml/` | Car reviews, maintenance | 15+ posts/day | DixieRoad (3+) |
+| Road & Track | `https://www.roadandtrack.com/rss/all.xml/` | Auto news, repair guides | Daily | DixieRoad (3+) |
+| RV Life | `https://rvlife.com/feed/` | RV repair, maintenance | Weekly | DixieRoad (3+) |
+| Do It Yourself RV | `https://www.doityourselfrv.com/feed/` | RV DIY repairs | Weekly | DixieRoad (3+) |
+| Camper Report | `https://camperreport.com/feed/` | RV & camper guides | Weekly | DixieRoad (3+) |
+| Diesel World | `https://www.dieselworldmag.com/feed/` | Diesel truck repair | Weekly | DixieRoad (3+) |
+| Auto Service World | `https://www.autoserviceworld.com/feed/` | Auto repair industry | Daily | DixieRoad (3+) |
 
 ### Survival & Prepping (3 feeds)
 
@@ -129,12 +135,17 @@ All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 
 ---
 
-## ❌ FAILED/DISQUALIFIED FEEDS (21 Total)
+## ❌ FAILED/DISQUALIFIED FEEDS (45 Total)
 
 ### Reason: 404 Not Found (Feed Discontinued)
 - ❌ **Google AI Blog**: `https://ai.googleblog.com/feeds/posts/default` (404 - discontinued)
 - ❌ **Anthropic Blog**: `https://www.anthropic.com/rss.xml` (404 - no RSS feed exists)
 - ❌ **This Old House**: `https://www.thisoldhouse.com/rss/all` (404 - discontinued)
+- ❌ **Motorcyclist**: `https://www.motorcyclistonline.com/feed/` (404 - discontinued)
+- ❌ **Motorcycle News**: `https://www.motorcyclenews.com/feed/` (404 - discontinued)
+- ❌ **BoatUS Magazine**: `https://www.boatus.com/magazine/feed/` (404 - discontinued)
+- ❌ **The Drive**: `https://www.thedrive.com/feeds/all` (404 - discontinued)
+- ❌ **Popular Mechanics Auto**: `https://www.popularmechanics.com/cars/feed/` (404 - discontinued)
 
 ### Reason: Redirect Issues (301/302/307/308 - Unreliable)
 - ❌ **VentureBeat**: `https://venturebeat.com/feed/` (308 redirect)
@@ -150,18 +161,38 @@ All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 - ❌ **Homesteading.com**: `https://www.homesteading.com/feed/` (301 redirect)
 - ❌ **Modern Homesteading**: `https://www.modernhomesteading.com/feed/` (301 redirect)
 - ❌ **Field & Stream**: `https://www.fieldandstream.com/feed/` (301 redirect)
+- ❌ **Cycle World**: `https://www.cycleworld.com/feed/` (301 redirect)
+- ❌ **RevZilla Common Tread**: `https://www.revzilla.com/common-tread/rss` (302 redirect)
+- ❌ **Boating Magazine**: `https://www.boatingmag.com/feed/` (301 redirect)
+- ❌ **Sail Magazine**: `https://www.sailmagazine.com/feed/` (301 redirect)
+- ❌ **PassageMaker**: `https://www.passagemaker.com/feed/` (301 redirect)
+- ❌ **Jalopnik**: `https://jalopnik.com/rss` (301 redirect)
+- ❌ **Truck Trend**: `https://www.trucktrend.com/feed/` (301 redirect)
+- ❌ **MotorTrend Trucks**: `https://www.motortrend.com/trucks/feed/` (308 redirect)
+- ❌ **Pickup Truck News**: `https://www.pickuptrucks.com/feed/` (302 redirect)
+- ❌ **The Fast Lane Truck**: `https://www.tfltruck.com/feed/` (301 redirect)
+- ❌ **YourMechanic**: `https://www.yourmechanic.com/article/feed` (301 redirect)
+- ❌ **RepairPal**: `https://repairpal.com/blog/feed` (301 redirect)
 
 ### Reason: Forbidden/Access Blocked (403)
 - ❌ **Fortune Tech**: `https://fortune.com/section/tech/feed/` (403 forbidden)
 - ❌ **Product Hunt**: `https://www.producthunt.com/feed` (403 forbidden)
 - ❌ **Dark Reading**: `https://www.darkreading.com/rss_simple.asp` (403 forbidden)
 - ❌ **Guns & Ammo**: `https://www.gunsandammo.com/feed/` (403 - blocks automation)
+- ❌ **RV Travel**: `https://www.rvtravel.com/feed/` (403 forbidden)
+- ❌ **Boats.com**: `https://www.boats.com/feed/` (403 forbidden)
+- ❌ **Autoblog**: `https://www.autoblog.com/rss.xml` (403 forbidden)
 
 ### Reason: Timeout/Connection Failed (000)
 - ❌ **Reuters Technology**: `https://feeds.reuters.com/reuters/technologyNews` (connection failed)
 - ❌ **Associated Press Technology**: `https://feeds.apnews.com/rss/apf-technology.rss` (connection failed)
 - ❌ **CoinDesk**: `https://feeds.coindesk.com/coindesk` (connection failed)
 - ❌ **The Prepper Journal**: `https://www.theprepperjournal.com/feed/` (timeout)
+- ❌ **Sport Rider**: `https://www.sportrider.com/feed/` (connection failed)
+
+### Reason: Method Not Allowed (405) / Server Error (500)
+- ❌ **RV Repair Club**: `https://www.rvrepairclub.com/feed/` (405 - method not allowed)
+- ❌ **The Car Connection**: `https://www.thecarconnection.com/news/feed` (500 - server error)
 
 ---
 
@@ -197,10 +228,16 @@ All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 ### DixieRoad (Repair/Survival/Homestead Niche)
 **Criteria**: Repair/Survival/Homestead content, Quality Score 3+
 
-**Assigned Feeds (11)**:
+**Assigned Feeds (18)**:
 - Family Handyman
 - Bob Vila
 - Car and Driver
+- Road & Track
+- RV Life
+- Do It Yourself RV
+- Camper Report
+- Diesel World
+- Auto Service World
 - Backdoor Survival
 - Survival Blog
 - Urban Survival Site
@@ -210,7 +247,7 @@ All feeds tested: HTTP 200 + Valid XML/RSS/Atom
 - The Firearm Blog
 - Outdoor Life
 
-**Daily Volume**: 75-100 articles → **Output**: 20-30 curated
+**Daily Volume**: 100-150 articles → **Output**: 25-40 curated
 
 ---
 
